@@ -1,0 +1,6 @@
+##NCrunch files
+*.ncrunch*
+
+#Resharper#
+_ReSharper.IEnumerable.Tests/*
+IEnumerable.Tests/obj/*
