@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="24e0e22c-3711-4d60-89ba-c2fd6b308a8e" name="Prasanth Guruprasad@XFT000099993001 2012-03-03 10:45:17" runUser="ADS\Prasanth Guruprasad" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b543f311-1713-4a50-a569-88fe0e05a448">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Prasanth Guruprasad_XFT000099993001 2012-03-03 10_45_17" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-03T10:45:17.6323960+05:30" queuing="2012-03-03T10:45:24.4047834+05:30" start="2012-03-03T10:45:24.7138011+05:30" finish="2012-03-03T10:45:40.3456952+05:30" />
+  <ResultSummary outcome="Error">
+    <Counters total="13" executed="7" passed="6" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="6" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="XFT000099993001" outcome="Error" timestamp="2012-03-03T10:45:40.3406949+05:30">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldAggregateOverElementsInASequenceGivenASeed" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="0ba00e99-d7ed-2fb0-b051-e7103cb83408">
+      <Execution id="bc365dd3-5422-417e-9245-1a5439781538" />
+      <TestMethod codeBase="C:/Users/Prasanth Guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestAggregate, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldAggregateOverElementsInASequenceGivenASeed" />
+    </UnitTest>
+    <UnitTest name="ShouldAggregateAllElementsInASequence" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="dcd10a40-1fd8-e7ea-9245-16e78f5e9ec1">
+      <Execution id="16a57ff6-3ae0-4a82-bad0-a4a6a6ae299e" />
+      <TestMethod codeBase="C:/Users/Prasanth Guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestAggregate, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldAggregateAllElementsInASequence" />
+    </UnitTest>
+    <UnitTest name="ShouldAggregateAndSelectAValueFromFinalResult" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="073725d1-ac0c-4c79-7ee9-38b38bb533cb">
+      <Execution id="e8e9b16e-3530-40f7-a2c0-826022b15c4f" />
+      <TestMethod codeBase="C:/Users/Prasanth Guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestAggregate, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldAggregateAndSelectAValueFromFinalResult" />
+    </UnitTest>
+    <UnitTest name="ShouldCheckWhetherAnyElementsSatisfyingApredicateExist" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="2c36914b-885d-c3f0-4965-b554d784c274">
+      <Execution id="6ba5cd1c-ec58-47a6-8b21-c987f6c0e34a" />
+      <TestMethod codeBase="C:/Users/Prasanth Guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestAny, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldCheckWhetherAnyElementsSatisfyingApredicateExist" />
+    </UnitTest>
+    <UnitTest name="ShouldTestAncestor" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="a54efff6-85e6-1bb1-19bc-625c632135af">
+      <Execution id="46879d43-3b20-42c2-8bf6-f40f07a82b96" />
+      <TestMethod codeBase="C:/Users/Prasanth Guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestAsEnumerable, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldTestAncestor" />
+    </UnitTest>
+    <UnitTest name="ShouldCalculateAverageOfASequence" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="bf94d445-5577-308e-3192-24d591a5d11b">
+      <Execution id="06cf02bf-4c51-4cfe-8aee-cb98fabeeb04" />
+      <TestMethod codeBase="C:/Users/Prasanth Guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestAverage, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldCalculateAverageOfASequence" />
+    </UnitTest>
+    <UnitTest name="ShouldAverageAfterApplyingATransform" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="34d5231e-f492-2651-7c60-c46361c08917">
+      <Execution id="b10320a4-f357-441b-9997-f30fefe122f5" />
+      <TestMethod codeBase="C:/Users/Prasanth Guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestAverage, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldAverageAfterApplyingATransform" />
+    </UnitTest>
+    <UnitTest name="ShouldAggregateOverAnEmptySequence" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="61b3348e-d5d7-9181-2971-aaa05c64b608">
+      <Execution id="376ce437-965c-485b-a677-f43cd8ab6df9" />
+      <TestMethod codeBase="C:/Users/Prasanth Guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestAggregate, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldAggregateOverAnEmptySequence" />
+    </UnitTest>
+    <UnitTest name="ShouldCastASequence" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="5aae0bcc-0a49-9bd4-6b50-8b695ae6356a">
+      <Execution id="814874ab-f63f-46b9-8fe2-ec4d06ba1c9d" />
+      <TestMethod codeBase="C:/Users/Prasanth Guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestCast, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldCastASequence" />
+    </UnitTest>
+    <UnitTest name="ShouldTestWhetherAnyElementsInSequence" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="43724962-6eb9-1418-ef09-58523c1b8bd1">
+      <Execution id="f8a8ffe6-457f-4c01-8ef6-a80bb7984c85" />
+      <TestMethod codeBase="C:/Users/Prasanth Guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestAny, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldTestWhetherAnyElementsInSequence" />
+    </UnitTest>
+    <UnitTest name="ShouldTestAllOnEmptySequence" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="9ae5f8ce-dbc0-7c6b-d342-027e55d850c7">
+      <Execution id="13990ae2-9995-4764-ab32-b00d683cfeeb" />
+      <TestMethod codeBase="C:/Users/Prasanth Guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestAll, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldTestAllOnEmptySequence" />
+    </UnitTest>
+    <UnitTest name="ShouldAverageAfterApplyingANullableTransform" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="5d34b014-990b-dca7-ff82-6fca0f4b874e">
+      <Execution id="8bce49d2-743d-4a8a-b7d3-6f225a60a21b" />
+      <TestMethod codeBase="C:/Users/Prasanth Guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestAverage, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldAverageAfterApplyingANullableTransform" />
+    </UnitTest>
+    <UnitTest name="ShouldTestAllElementsInASequence" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="3dde9515-9c9b-aa9c-9d69-c4f0bca93f88">
+      <Execution id="b87f6670-313a-4be3-ba6f-0b8c85e89811" />
+      <TestMethod codeBase="C:/Users/Prasanth Guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestAll, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldTestAllElementsInASequence" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="073725d1-ac0c-4c79-7ee9-38b38bb533cb" executionId="e8e9b16e-3530-40f7-a2c0-826022b15c4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ba00e99-d7ed-2fb0-b051-e7103cb83408" executionId="bc365dd3-5422-417e-9245-1a5439781538" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c36914b-885d-c3f0-4965-b554d784c274" executionId="6ba5cd1c-ec58-47a6-8b21-c987f6c0e34a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34d5231e-f492-2651-7c60-c46361c08917" executionId="b10320a4-f357-441b-9997-f30fefe122f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3dde9515-9c9b-aa9c-9d69-c4f0bca93f88" executionId="b87f6670-313a-4be3-ba6f-0b8c85e89811" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43724962-6eb9-1418-ef09-58523c1b8bd1" executionId="f8a8ffe6-457f-4c01-8ef6-a80bb7984c85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5aae0bcc-0a49-9bd4-6b50-8b695ae6356a" executionId="814874ab-f63f-46b9-8fe2-ec4d06ba1c9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d34b014-990b-dca7-ff82-6fca0f4b874e" executionId="8bce49d2-743d-4a8a-b7d3-6f225a60a21b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61b3348e-d5d7-9181-2971-aaa05c64b608" executionId="376ce437-965c-485b-a677-f43cd8ab6df9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ae5f8ce-dbc0-7c6b-d342-027e55d850c7" executionId="13990ae2-9995-4764-ab32-b00d683cfeeb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a54efff6-85e6-1bb1-19bc-625c632135af" executionId="46879d43-3b20-42c2-8bf6-f40f07a82b96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf94d445-5577-308e-3192-24d591a5d11b" executionId="06cf02bf-4c51-4cfe-8aee-cb98fabeeb04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dcd10a40-1fd8-e7ea-9245-16e78f5e9ec1" executionId="16a57ff6-3ae0-4a82-bad0-a4a6a6ae299e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e8e9b16e-3530-40f7-a2c0-826022b15c4f" testId="073725d1-ac0c-4c79-7ee9-38b38bb533cb" testName="ShouldAggregateAndSelectAValueFromFinalResult" computerName="XFT000099993001" duration="00:00:00.0417668" startTime="2012-03-03T10:45:25.0658212+05:30" endTime="2012-03-03T10:45:28.0749933+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8e9b16e-3530-40f7-a2c0-826022b15c4f">
+    </UnitTestResult>
+    <UnitTestResult executionId="bc365dd3-5422-417e-9245-1a5439781538" testId="0ba00e99-d7ed-2fb0-b051-e7103cb83408" testName="ShouldAggregateOverElementsInASequenceGivenASeed" computerName="XFT000099993001" duration="00:00:00.0031155" startTime="2012-03-03T10:45:28.1519977+05:30" endTime="2012-03-03T10:45:28.1779992+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc365dd3-5422-417e-9245-1a5439781538">
+    </UnitTestResult>
+    <UnitTestResult executionId="6ba5cd1c-ec58-47a6-8b21-c987f6c0e34a" testId="2c36914b-885d-c3f0-4965-b554d784c274" testName="ShouldCheckWhetherAnyElementsSatisfyingApredicateExist" computerName="XFT000099993001" duration="00:00:00.0046129" startTime="2012-03-03T10:45:28.2240018+05:30" endTime="2012-03-03T10:45:28.2450031+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ba5cd1c-ec58-47a6-8b21-c987f6c0e34a">
+    </UnitTestResult>
+    <UnitTestResult executionId="b10320a4-f357-441b-9997-f30fefe122f5" testId="34d5231e-f492-2651-7c60-c46361c08917" testName="ShouldAverageAfterApplyingATransform" computerName="XFT000099993001" duration="00:00:00.0949246" startTime="2012-03-03T10:45:28.2790050+05:30" endTime="2012-03-03T10:45:28.3940116+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b10320a4-f357-441b-9997-f30fefe122f5">
+    </UnitTestResult>
+    <UnitTestResult executionId="b87f6670-313a-4be3-ba6f-0b8c85e89811" testId="3dde9515-9c9b-aa9c-9d69-c4f0bca93f88" testName="ShouldTestAllElementsInASequence" computerName="XFT000099993001" duration="00:00:00.0059624" startTime="2012-03-03T10:45:28.4230132+05:30" endTime="2012-03-03T10:45:28.4520149+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b87f6670-313a-4be3-ba6f-0b8c85e89811">
+    </UnitTestResult>
+    <UnitTestResult executionId="f8a8ffe6-457f-4c01-8ef6-a80bb7984c85" testId="43724962-6eb9-1418-ef09-58523c1b8bd1" testName="ShouldTestWhetherAnyElementsInSequence" computerName="XFT000099993001" duration="00:00:00.0020936" startTime="2012-03-03T10:45:28.4860168+05:30" endTime="2012-03-03T10:45:28.5020178+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8a8ffe6-457f-4c01-8ef6-a80bb7984c85">
+    </UnitTestResult>
+    <UnitTestResult executionId="814874ab-f63f-46b9-8fe2-ec4d06ba1c9d" testId="5aae0bcc-0a49-9bd4-6b50-8b695ae6356a" testName="ShouldCastASequence" computerName="XFT000099993001" duration="00:00:11.8216761" startTime="2012-03-03T10:45:28.5230190+05:30" endTime="2012-03-03T10:45:40.3446951+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="814874ab-f63f-46b9-8fe2-ec4d06ba1c9d">
+    </UnitTestResult>
+    <UnitTestResult executionId="8bce49d2-743d-4a8a-b7d3-6f225a60a21b" testId="5d34b014-990b-dca7-ff82-6fca0f4b874e" testName="ShouldAverageAfterApplyingANullableTransform" computerName="XFT000099993001" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bce49d2-743d-4a8a-b7d3-6f225a60a21b">
+    </UnitTestResult>
+    <UnitTestResult executionId="376ce437-965c-485b-a677-f43cd8ab6df9" testId="61b3348e-d5d7-9181-2971-aaa05c64b608" testName="ShouldAggregateOverAnEmptySequence" computerName="XFT000099993001" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="376ce437-965c-485b-a677-f43cd8ab6df9">
+    </UnitTestResult>
+    <UnitTestResult executionId="13990ae2-9995-4764-ab32-b00d683cfeeb" testId="9ae5f8ce-dbc0-7c6b-d342-027e55d850c7" testName="ShouldTestAllOnEmptySequence" computerName="XFT000099993001" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13990ae2-9995-4764-ab32-b00d683cfeeb">
+    </UnitTestResult>
+    <UnitTestResult executionId="46879d43-3b20-42c2-8bf6-f40f07a82b96" testId="a54efff6-85e6-1bb1-19bc-625c632135af" testName="ShouldTestAncestor" computerName="XFT000099993001" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46879d43-3b20-42c2-8bf6-f40f07a82b96">
+    </UnitTestResult>
+    <UnitTestResult executionId="06cf02bf-4c51-4cfe-8aee-cb98fabeeb04" testId="bf94d445-5577-308e-3192-24d591a5d11b" testName="ShouldCalculateAverageOfASequence" computerName="XFT000099993001" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06cf02bf-4c51-4cfe-8aee-cb98fabeeb04">
+    </UnitTestResult>
+    <UnitTestResult executionId="16a57ff6-3ae0-4a82-bad0-a4a6a6ae299e" testId="dcd10a40-1fd8-e7ea-9245-16e78f5e9ec1" testName="ShouldAggregateAllElementsInASequence" computerName="XFT000099993001" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16a57ff6-3ae0-4a82-bad0-a4a6a6ae299e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

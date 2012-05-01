@@ -38,6 +38,8 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
   </ItemGroup>
   <ItemGroup>
     <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
@@ -46,8 +48,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestAll.cs" />
+    <Compile Include="TestAsEnumerable.cs" />
     <Compile Include="TestAny.cs" />
     <Compile Include="TestAggregate.cs" />
+    <Compile Include="TestAverage.cs" />
+    <Compile Include="TestCast.cs" />
+    <Compile Include="TestConcat.cs" />
+    <Compile Include="TestContains.cs" />
+    <Compile Include="TestCopyToDataTable.cs" />
+    <Compile Include="TestCount.cs" />
+    <Compile Include="TestDefaultIfEmpty.cs" />
+    <Compile Include="TestDistinct.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

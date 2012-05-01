@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9d3ec573-ddf6-48fe-aa66-202a51023921" name="Prasanth Guruprasad@XFT000099993001 2012-02-25 08:56:03" runUser="ADS\Prasanth Guruprasad" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b543f311-1713-4a50-a569-88fe0e05a448">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Prasanth Guruprasad_XFT000099993001 2012-02-25 08_56_03" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-25T08:56:03.2801144+05:30" queuing="2012-02-25T08:56:04.7371977+05:30" start="2012-02-25T08:56:04.8402036+05:30" finish="2012-02-25T08:56:05.4402379+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldAggregateOverElementsInASequenceGivenASeed" storage="c:\users\prasanth guruprasad\documents\visual studio 2010\projects\ienumerable.tests\ienumerable.tests\bin\debug\ienumerable.tests.dll" id="0ba00e99-d7ed-2fb0-b051-e7103cb83408">
+      <Execution id="e9e06c58-5874-425b-b5ca-786ec2ca1c8d" />
+      <TestMethod codeBase="c:/users/prasanth guruprasad/documents/visual studio 2010/Projects/IEnumerable.Tests/IEnumerable.Tests/bin/Debug/IEnumerable.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IEnumerable.Tests.TestAggregate, IEnumerable.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldAggregateOverElementsInASequenceGivenASeed" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0ba00e99-d7ed-2fb0-b051-e7103cb83408" executionId="e9e06c58-5874-425b-b5ca-786ec2ca1c8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e9e06c58-5874-425b-b5ca-786ec2ca1c8d" testId="0ba00e99-d7ed-2fb0-b051-e7103cb83408" testName="ShouldAggregateOverElementsInASequenceGivenASeed" computerName="XFT000099993001" duration="00:00:00.0247791" startTime="2012-02-25T08:56:04.9292087+05:30" endTime="2012-02-25T08:56:05.4162366+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9e06c58-5874-425b-b5ca-786ec2ca1c8d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

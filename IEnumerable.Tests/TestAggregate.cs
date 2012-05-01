@@ -32,8 +32,8 @@ namespace IEnumerable.Tests
         {
             var sequence = Enumerable.Range(1, 2);
             
-            var total = sequence.Aggregate(10, sum);
-            
+            var total = sequence.Aggregate(10, (a, b) => a + b);
+           
             Assert.AreEqual(total, 13);
         }
 
