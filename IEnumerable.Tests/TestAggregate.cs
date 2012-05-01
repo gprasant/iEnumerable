@@ -24,7 +24,7 @@ namespace IEnumerable.Tests
         {
             var sequence = Enumerable.Empty<int>();
             
-            var total = sequence.Aggregate(sum);
+            sequence.Aggregate(sum);
         }
 
         [TestMethod]

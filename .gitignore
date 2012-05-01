@@ -1,6 +1,62 @@
-##NCrunch files
-*.ncrunch*
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
 
-#Resharper#
-_ReSharper.IEnumerable.Tests/*
-IEnumerable.Tests/obj/*
+#Visual Studio files
+
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+[Bb]in*/
+[Dd]ebug*/
+[Rr]elease*/
+Backup/
+Ankh.NoLoad
+UpgradeLog.XML
+_UpgradeReport_Files/
+
+
+#MonoDevelop
+*.pidb
+*.userprefs
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+#NuGet
+packages/
+
+#ncrunch
+*ncrunch*
+*crunch*.local.xml
