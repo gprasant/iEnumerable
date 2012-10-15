@@ -61,6 +61,12 @@
     <Compile Include="TestDefaultIfEmpty.cs" />
     <Compile Include="TestDistinct.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IEnumerable\IEnumerable.csproj">
+      <Project>{3d4c39eb-6ec2-4119-bd9d-8d8d43030dcc}</Project>
+      <Name>IEnumerable</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

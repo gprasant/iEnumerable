@@ -1,5 +1,6 @@
 ﻿using System;
-using System.Linq;
+//using System.Linq;
+using MyOwn.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace IEnumerable.Tests
@@ -11,7 +12,7 @@ namespace IEnumerable.Tests
         [TestMethod]
         public void ShouldAggregateAllElementsInASequence()
         {
-            var sequence = Enumerable.Range(1, 2);
+            var sequence = System.Linq.Enumerable.Range(1, 2);
             
             int total = sequence.Aggregate(sum);
             
@@ -22,7 +23,7 @@ namespace IEnumerable.Tests
         [ExpectedException(typeof(InvalidOperationException))]
         public void ShouldAggregateOverAnEmptySequence()
         {
-            var sequence = Enumerable.Empty<int>();
+            var sequence = System.Linq.Enumerable.Empty<int>();
             
             sequence.Aggregate(sum);
         }
@@ -30,7 +31,7 @@ namespace IEnumerable.Tests
         [TestMethod]
         public void ShouldAggregateOverElementsInASequenceGivenASeed()
         {
-            var sequence = Enumerable.Range(1, 2);
+            var sequence = System.Linq.Enumerable.Range(1, 2);
             
             var total = sequence.Aggregate(10, (a, b) => a + b);
            
@@ -40,7 +41,7 @@ namespace IEnumerable.Tests
         [TestMethod]
         public void ShouldAggregateAndSelectAValueFromFinalResult()
         {
-            var sequence = Enumerable.Range(1, 2);
+            var sequence = System.Linq.Enumerable.Range(1, 2);
             
             var total = sequence.Aggregate(0, sum, x => new{IntValue = x});
             
